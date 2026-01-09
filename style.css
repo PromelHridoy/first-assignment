@@ -204,5 +204,63 @@ nav .menu a{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    margin-bottom: ;
+}
+
+#solution{
+    /* padding-top: 120px */
+
+    background-color: #FFFFFF;
+}
+
+.solution-section{
+    display: flex;
+    /* align-items: center; */
+    gap: 60px;
+    padding-top: 120px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.solution-content{
+    margin: 102px 0;
+}
+
+.solution-text .solution-label{
+    font-size: 16px;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.solution-content h2{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.solution-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.feature-item{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.feature-item img{
+    min-width: 20px;
+    height: 20px;
+}
+
+.feature-item p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
 }
