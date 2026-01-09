@@ -127,3 +127,82 @@ nav .menu a{
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.box-card{
+    /* background-color: red; */
+}
+
+#problems{
+    padding-top: 80px;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2{
+    font-size: 52px;
+    color: #001931;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-size: 16px;
+    margin-bottom: 44px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+.box-card{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-item{
+    max-width: 322px;
+    height: 300px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px 0 #00000027;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card-item .icon-box{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.icon-box img{
+    width: 32px;
+    height: 32px;
+}
+
+.card-item h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #001931;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.card-item p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: ;
+}
